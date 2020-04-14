@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-project",
+  "version": "0.0.1",
+  "description": "nodejs project with react template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo'no test'"
+  },
+  "author": "",
+  "license": "ISC"
+}
