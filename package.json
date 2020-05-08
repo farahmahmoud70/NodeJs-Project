@@ -4,8 +4,36 @@
   "description": "nodejs project with react template",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "debug": "nodemon --inspect .",
+    "debug:brk": "nodemon --inspect-brk .",
     "test": "echo'no test'"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.4.0",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.9",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.0.3",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "App/jsons/*"
+    ]
+  }
 }
